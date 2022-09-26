@@ -95,8 +95,21 @@ body{
     font-size: 14px;
 
 }
-
-
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+    margin-top: 50px;
+}
+.sidebar p{
+    font-size: 14px;
+}
+.sidebar img{
+    width:120px;
+    border-radius:50%;
+    overflow:hidden;
+    box-shadow:0 0 0 4px rgba(255,255,255,0.2);
+}
 
 /*clearfix*/
 .cf:before,
