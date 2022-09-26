@@ -1,0 +1,94 @@
+body{
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blackquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q::before, q:after{
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*syle*/
+body{
+    font: 16px/28px arial,sans-serif ;
+    background-color: #eaeaea;
+    color : #333;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+.header{
+    padding: 10px;
+}
+.header h2{
+    font-size:  50px;
+    font-weight: bold;
+}
+.header h4{
+    font-size: 16px;
+    margin-top: -20px;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration:none ;
+    color:  black;
+}
+
+.header a:hover{
+    color: blue;
+}
+.hero{
+    height: 560px;
+    background-image:url(img/hero.png);
+    background-size: cover;
+    background-position: -20px -80px;
+}
+.content{
+    padding: 20px;
+    margin-top: 40px;
+}
+.content h4{
+    font-size:  28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer{
+    font-size: 14px;
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copyright{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 14px;
+
+}
